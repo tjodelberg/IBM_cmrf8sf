@@ -1,0 +1,8 @@
+*drcRulesFile: /afs/eecs.umich.edu/kits/IBM_PDK/cmrf8sf/relLM/Calibre/DRC/cmrf8sf.drc.cal
+*drcRunDir: Calibre/DRC
+*drcLayoutPaths: INVX1TR.calibre.gds
+*drcLayoutPrimary: INVX1TR
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: INVX1TR.drc.results
+*drcSummaryFile: INVX1TR.drc.summary
+*cmnWarnLayoutOverwrite: 0

@@ -1,0 +1,27 @@
+*lvsRulesFile: /afs/eecs.umich.edu/kits/IBM_PDK/cmrf8sf/relLM/Calibre/LVS/cmrf8sf.lvs.cal
+*lvsRunDir: Calibre/LVS
+*lvsLayoutPaths: mult.calibre.db
+*lvsLayoutPrimary: mult
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: mult.src.net
+*lvsSourcePrimary: mult
+*lvsSourceGetFromViewer: 1
+*lvsReportFile: mult.lvs.report
+*lvsMaskDBFile: mult.maskdb
+*lvsSpiceFile: mult.sp
+*lvsReportMaximumAll: 1
+*lvsAbortOnSupplyError: 0
+*lvsPowerNames: VDD VDD! VDD: DVDD
+*lvsGroundNames: VSS VSS! VSS: GND GND! DVSS
+*lvsERCDatabase: mult.erc.results
+*lvsERCSummaryFile: mult.erc.summary
+*lvsIsolateShorts: 1
+*cmnWarnLayoutOverwrite: 0
+*cmnWarnSourceOverwrite: 0
+*cmnVConnectColon: 1
+*cmnVConnectNamesState: SOME
+*cmnVConnectNames: VDD VDD! VSS VSS! GND! GND
+*cmnShowOptions: 1
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnFDILayoutLibrary: mult
+*cmnFDIDEFLayoutPath: mult.def

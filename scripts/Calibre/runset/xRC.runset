@@ -1,0 +1,37 @@
+*pexRulesFile: /afs/eecs.umich.edu/wics/users/odelberg/runsets/cmrf8sf_8LM_620_detailed.xrc.cal 
+*pexRulesFileLastLoad: 1188872776
+*pexRunDir: Calibre/xRC
+*pexLayoutPaths: inverter.calibre.gds
+*pexLayoutPrimary: inverter
+*pexLayoutGetFromViewer: 1
+*pexSourcePath: inverter.src.net
+*pexSourcePrimary: inverter
+*pexSourceGetFromViewer: 1
+*pexReportFile: inverter.lvs.report
+*pexPexNetlistFile: inverter.pex.netlist
+*pexPexNetlistFormat: CALIBREVIEW
+*pexPexReport: 1
+*pexPexReportFile: ./flat.dist.rep
+*pexPexGroundName: 1
+*pexPexGroundNameValue: VSS VSS! GND GND!
+*pexPexLoop: 0
+*pexMaskDBFile: inverter.maskdb
+*pexEnvVars: {COMPARE_NF_VALUES FALSE} {LASTMETAL LM} {MGPROCESS NOMG} {NO_SUBC_IN_GRLOGIC TRUE} {NO_TRACE_PROPERTY FALSE} {NUMMETAL 8} {PEX_RUN TRUE} {TECHDIR /afs/umich.edu/class/eecs427/ibm13/cmrf8sf/relLM/Calibre} {USE_RESISTANCE_MULTIPLIERS TRUE} {XCAL_MAXD_MODE smart}
+*pexPowerNames: VDD Vdd vdd VDD:P DVDD DVDD:P VDD! ?VDD? vdd? VCC Vcc vcc ?VCC? vcc? vddd vdd_33! vdda_33! VDDI VDDO
+*pexGroundNames: VSS Vss vss VSS:G DVSS DVSS:P ?VSS? vss? GND GND:G GND! ?GND? sub! sub? sub_vss_33! sub_vssd_33! sub_vssa_33! VSSI VSSO
+*pexReportOptions: E S V
+*pexRecognizeGates: NONE
+*pexInductFreqGHz: 1.79769e+299
+*pexInductRange: 1.79769e+308
+*pexInductRetPath: GROUND
+*cmnDRCMaxVertexCount: 199
+*cmnWarnLayoutOverwrite: 0
+*cmnWarnSourceOverwrite: 0
+*cmnVConnectColon: 1
+*cmnVConnectReport: 1
+*cmnVConnectNamesState: SOME
+*cmnVConnectNames: VDD VDD:P VSS VSS:G DVSS DVSS:P DVDD DVDD:P VSSI VDDI VSSO VDDO GND GND? VDD! GND! VSS!
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {mgcHome {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnRunHier: 2
+*cmnUseCBforRVE: 0
+*cmnShowOptions: 1

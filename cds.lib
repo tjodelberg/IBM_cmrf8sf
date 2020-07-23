@@ -1,0 +1,11 @@
+DEFINE analogLib $CDS/tools/dfII/etc/cdslib/artist/analogLib 
+DEFINE sbaLib $CDS/tools/dfII/etc/cdslib/artist/sbaLib
+DEFINE basic $CDS/tools/dfII/etc/cdslib/basic
+DEFINE sample $CDS/tools/dfII/samples/cdslib/sample
+DEFINE US_8ths $CDS/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE rfTlineLib $CDSHOME/tools/dfII/samples/artist/rfTlineLib
+DEFINE rfLib $CDSHOME/tools/dfII/samples/artist/rfLib
+DEFINE rfExamples $CDSHOME/tools/dfII/samples/artist/rfExamples
+DEFINE US_8ths $CDS/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE cmrf8sf /afs/eecs.umich.edu/kits/IBM_PDK/cmrf8sf/relLM/cdslib/cmrf8sf
+DEFINE esd8rf /afs/eecs.umich.edu/kits/IBM_PDK/cmrf8sf/relLM/cdslib/esd8rf
